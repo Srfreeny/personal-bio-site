@@ -2,16 +2,106 @@
   margin: 0;
   padding: 0;
 }
+/* Plum: 88498f
+  Cadet Blue: 779FA1
+  Wheat: E0CBA8
+    Portland Orange: FF6542
+    EggPlant: 564154 */
 
 body {
-    background-image: linear-gradient(rgb(176, 226, 238), rgb(195, 144, 236), pink);
+  background-color: #e0cba8;
 }
 
 h1 {
-    text-align: center;
-    padding-top: 30px;
-    color: rgb(231, 160, 6);
-    text-decoration: overline underline;
-    text-decoration-style: wavy;
-    text-decoration-color: rgb(231, 160, 6);
+  text-align: center;
+  padding-top: 30px;
+  color: #88498f;
+  text-decoration: overline underline;
+  font-family: "Quicksand", sans-serif;
+  font-size: 100px;
+}
+
+nav li {
+  display: block;
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #88498f;
+}
+
+nav li:hover {
+  color: #ff6542;
+}
+
+#navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.bio {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #779fa1;
+  border: solid 10px #ff6542;
+  border-radius: 15px;
+  margin: 30px 100px;
+}
+
+#technologiesPage {
+  margin: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: #88498f;
+}
+
+.skills {
+  display: block;
+  text-align: center;
+  color: #88498f;
+  font-weight: 200;
+}
+
+#projectsPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectsPage {
+  border: 2px solid #ff6542;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: #779fa1;
+  font-family: "Quicksand", sans-serif;
+}
+
+p {
+  justify-content: center;
+  padding: 5px;
+}
+
+.page-footer {
+  text-align: center
+}
+
+h4 {
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #564154;
+  Margin: 10px;
+
+}
+
+footer li {
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  color: #564154;
 }
